@@ -1,0 +1,28 @@
+.page {
+  font-family: Inter;
+  max-width: 1280px;
+  margin: 0 auto;
+  background: #2A2C2F;
+  color: #FFFFFF;
+  padding: 28px 48px 0 48px;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+}
+
+@media (max-width: 768px) {
+  .page {
+    padding: 28px 28px 0 28px;
+  }
+}
+
+@media (max-width: 320px) {
+  .page {
+    padding: 16px 16px 0 16px;
+  }
+}
+
+
