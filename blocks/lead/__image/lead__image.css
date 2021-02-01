@@ -9,12 +9,13 @@
 
 @media (max-width: 768px) {
   .lead__image {
+    margin: 40px -32px 0;
     max-width: calc(100% + 56px);
   }
 }
 @media (max-width: 320px) {
   .lead__image {
-    margin: 40px 0 0;
+    margin: 40px -16px 0;
     max-width: calc(100% + 32px);
   }
 }

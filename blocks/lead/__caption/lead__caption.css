@@ -7,7 +7,9 @@
   line-height: 14px;
   letter-spacing: 0.15em;
   text-transform: uppercase;
+
 }
+
 @media (max-width: 768px) {
   .lead__caption {
     padding-left: 16px;
