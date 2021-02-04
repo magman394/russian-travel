@@ -3,10 +3,14 @@
   height: auto;
   object-fit: cover;
   object-position: top;
-  margin: 56px 0 0;
+  margin: 64px 0 0;
   background-position: center;
 }
-
+@media (max-width: 1024px) {
+  .lead__image {
+    margin: 56px 0 0;
+  }
+}
 @media (max-width: 768px) {
   .lead__image {
     margin: 40px -32px 0;

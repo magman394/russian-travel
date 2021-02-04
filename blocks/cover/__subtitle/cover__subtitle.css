@@ -18,11 +18,7 @@
     margin: 32px 332px 0;
   }
 }
-@media (max-width: 1024px) {
-  .cover__subtitle {
-    margin: 32px 204px 0;
-  }
-}
+
 @media (max-width: 320px) {
   .cover__subtitle {
     font-size: 14px;

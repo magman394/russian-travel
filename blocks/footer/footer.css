@@ -1,10 +1,10 @@
 .footer {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   max-width: 1184px;
-  margin: 92px -48px 0;
+  margin: 92px -48px 24px;
 }
 @media (max-width: 1024px) {
   .footer {
