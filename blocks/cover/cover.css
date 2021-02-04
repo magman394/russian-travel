@@ -5,19 +5,19 @@
   min-height: 740px;
   background-image: url(../../images/cover-trains.jpg);
   background-position: center;
-  margin: 0 -48px 0;
+  margin: 12px 0 0;
 }
 
 @media (max-width: 1024px) {
   .cover {
     min-height: 640px;
-
+    margin: 90px -48px 0;
   }
 }
 @media (max-width: 768px) {
   .cover {
     min-height: 480px;
-    margin: 0 -24px 0;
+    margin: 90px -24px 0;
   }
 }
 @media (max-width: 320px) {

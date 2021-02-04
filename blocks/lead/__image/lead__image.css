@@ -1,5 +1,5 @@
 .lead__image {
-  max-width: 100%;
+  max-width: 984px;
   height: auto;
   object-fit: cover;
   object-position: top;
@@ -8,13 +8,13 @@
 }
 @media (max-width: 1024px) {
   .lead__image {
+    max-width: 928px;
     margin: 56px 0 0;
   }
 }
 @media (max-width: 768px) {
   .lead__image {
-    margin: 40px -32px 0;
-    max-width: calc(100% + 56px);
+    margin: 56px -24px 0;
   }
 }
 @media (max-width: 320px) {
