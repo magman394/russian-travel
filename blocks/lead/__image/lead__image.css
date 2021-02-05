@@ -1,25 +1,22 @@
 .lead__image {
-  max-width: 984px;
   height: auto;
   object-fit: cover;
-  object-position: top;
-  margin: 64px 0 0;
-  background-position: center;
+  object-position: center;
 }
+
 @media (max-width: 1024px) {
   .lead__image {
-    max-width: 928px;
-    margin: 56px 0 0;
+    padding: 0 48px;
   }
 }
 @media (max-width: 768px) {
   .lead__image {
-    margin: 56px -24px 0;
+    padding: 0;
   }
 }
 @media (max-width: 320px) {
   .lead__image {
-    margin: 40px -16px 0;
+    margin: 40px 0 0;
     max-width: calc(100% + 32px);
   }
 }

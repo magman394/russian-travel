@@ -10,6 +10,7 @@
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
     margin: 92px 0 0;
+    padding: 0 48px;
     gap: 14px;
   }
 }
@@ -20,6 +21,7 @@
     grid-template-rows: repeat(6, 1fr);
     margin: 88px 0 0;
     gap: 16px;
+    padding: 0 24px;
   }
 }
 @media (max-width: 320px) {
@@ -28,5 +30,6 @@
     grid-template-rows: repeat(12, 1fr);
     margin: 64px 0 0;
     gap: 12px;
+    padding: 0 16px;
   }
 }

@@ -3,6 +3,21 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  margin: 0 48px 56px;
+  max-width: 1184px;
 }
-
+@media (max-width: 1024px) {
+  .header {
+    margin: 0 48px 48px;
+  }
+}
+@media (max-width: 768px) {
+  .header {
+    margin: 0 24px 48px;
+  }
+}
+@media (max-width: 320px) {
+  .header {
+    margin: 0 16px 48px;
+  }
+}
