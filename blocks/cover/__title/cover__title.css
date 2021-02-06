@@ -8,28 +8,12 @@
   color: #FFFFFF;
   opacity: 1;
   z-index: 1;
-  margin: 0 316px;
+  max-width: 560px;
+}
 
-
-}
-@media (max-width: 1024px) {
-  .cover__title {
-    margin: 0 236px;
-  }
-}
-@media (max-width: 768px) {
-  .cover__title {
-    margin: 0 110px;
-  }
-}
 @media (max-width: 600px) {
   .cover__title {
     font-size: 32px;
     line-height: 35px;
-  }
-}
-@media (max-width: 320px) {
-  .cover__title {
-    margin: 0 40px;
   }
 }
